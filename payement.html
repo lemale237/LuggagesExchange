@@ -1,0 +1,112 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Adresse de facturation</h3>
+
+                <div class="inputBox">
+                    <span>Nom Complet:</span>
+                    <input type="text" placeholder="Aubin Djiomene">
+                </div>
+                <div class="inputBox">
+                    <span>Email:</span>
+                    <input type="email" placeholder="example@example.com">
+                </div>
+                <div class="inputBox">
+                    <span>Adresse:</span>
+                    <input type="text" placeholder="room - street - locality">
+                </div>
+                <div class="inputBox">
+                    <span>Ville:</span>
+                    <input type="text" placeholder="mumbai">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Pays:</span>
+                        <input type="text" placeholder="Cameroun">
+                    </div>
+                    <div class="inputBox">
+                        <span>Code Postal:</span>
+                        <input type="text" placeholder="123 456">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Paiement</h3>
+
+                <div class="inputBox">
+                    <span>Cartes acceptées :</span>
+                    <img src="images/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Nom sur la carte:</span>
+                    <input type="text" placeholder="M. Aubin Djiomene">
+                </div>
+                <div class="inputBox">
+                    <span>Numéro de carte de crédit:</span>
+                    <input type="number" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <span>Mois d'expiration:</span>
+                    <select id="month" name="month">
+                        <option>month</option>
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </div>
+                <br>
+                
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Année d'expiration:</span>
+                        <input type="number" placeholder="2022">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="1234">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Procéder au paiement" class="submit-btn">
+
+    </form>
+
+</div>    
+    
+</body>
+</html>
